@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>버튼이 있는 입력창</title>
+    </head>
+
+    <body>
+        <h3>버튼을 만들자</h3>
+        <hr>
+        <form>
+            검색 : <input type="search" size="20">
+            <input type="button" value="Q1">
+            <input type="button" value="Q2"><br>
+            submit 버튼 : <input type="submit" value="전송1">
+            <input type="submit" value="전송2"><br>
+            reset 버튼 : <input type="reset" value="리셋1">
+            <input type="reset" value="리셋1"><br>
+            이미지버튼 : <input type="image" src="..\img/chrome.png" width="50"> 
+            <button type="button">
+                <img src=" \img\chrome.png" alt="이미지 버튼" width="50">        
+            </button>
+        </form>
+
+        <h3>체크박스</h3>
+        <hr>
+        <form>
+            김밥 <input type="checkbox" value="1"> <!--기본설정/다수 선택 가능-->
+            삼각김밥 <input type="checkbox" value="2" checked> <!--체크 안했는데도 체크되게 만드는 것-->
+            비빔밥 <input type="checkbox" value="3">
+        </form>
+
+        <h3>옵션버튼</h3>
+        <hr>
+        <form>
+            김밥 <input type="radio" value="1"> <!--누르기만 가능하고 중복으로 누른다-->
+            삼각김밥 <input type="radio" value="2" checked> 
+            비빔밥 <input type="radio" value="3">
+        </form>
+
+        <h3>콤보박스</h3>
+        <hr>
+        <form>
+            <select name="점심">
+                <option value="1"> 김밥 </option>
+                <option value="2" selected > 삼각김밥 </option>
+                <option value="3"> 비빔밥 </option>
+            </select>
+        </form>
+
+
+
+    </body>
+
+</html>
